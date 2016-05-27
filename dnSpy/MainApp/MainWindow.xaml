@@ -25,7 +25,7 @@
         xmlns:local="clr-namespace:dnSpy.MainApp"
         xmlns:ctrls="clr-namespace:dnSpy.Shared.Controls;assembly=dnSpy.Shared"
         Style="{StaticResource MainWindowStyle}"
-        Title="dnSpy"
+        Title="deAtomizer"
         MinWidth="250"
         MinHeight="200"
         mc:Ignorable="d"

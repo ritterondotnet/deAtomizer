@@ -257,7 +257,7 @@ namespace dnSpy.MainApp {
 		}
 
 		string GetDefaultTitle() {
-			var t = string.Format("dnSpy {0} ({1})", AssemblyInformationalVersion, string.Join(", ", titleInfos.ToArray()));
+			var t = $"deAtomizer {AssemblyInformationalVersion} ({string.Join(", ", titleInfos.ToArray())})";
 			return t;
 		}
 		readonly List<string> titleInfos = new List<string>();

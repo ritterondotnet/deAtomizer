@@ -206,7 +206,7 @@ namespace dnSpy.MainApp {
 		}
 
 		void Write(AvalonEditTextOutput output) {
-			output.WriteLine(string.Format("dnSpy {0}", appWindow.AssemblyInformationalVersion), TextTokenKind.Text);
+			output.WriteLine($"deAtomizer {appWindow.AssemblyInformationalVersion}", TextTokenKind.Text);
 			output.WriteLine();
 			output.WriteLine(dnSpy_Resources.AboutScreen_LicenseInfo, TextTokenKind.Text);
 			output.WriteLine();
